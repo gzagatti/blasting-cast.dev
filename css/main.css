@@ -1,0 +1,123 @@
+/*--------------------------------------------------
+/ Container
+--------------------------------------------------*/
+
+.container {
+    max-width: 960px;
+}
+
+.well {
+    background-color: transparent;
+}
+
+.lead {
+    color: #555;
+}
+
+.btn-lg {
+    padding: 14px 20px;
+    margin-right: 20px;
+}
+
+/*--------------------------------------------------
+/ Sticky footer styles
+--------------------------------------------------*/
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    /* Margin bottom by footer height */
+    margin-bottom: 220px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 220px;
+    background-color: #333;
+    color: #efefef;
+    padding: 20px 0;
+}
+
+@media only screen and (max-width: 760px) {
+body { margin-bottom: 400px; }
+.footer { height: 400px; }
+}
+
+.footer a {
+    color: rgb(51, 122, 183);
+}
+
+.footer a:hover {
+    color: #d8e6f3;
+}
+
+/*--------------------------------------------------
+/ Icons
+--------------------------------------------------*/
+
+.features .glyphicon {
+    font-size: 32px;
+}
+
+.about .fa-rocket {
+    font-size: 64px;
+}
+
+/*--------------------------------------------------
+/ Navigation
+--------------------------------------------------*/
+
+.navbar {
+    background-color: rgb(51, 122, 183);
+}
+
+.navbar a {
+    color: #d8e6f3;
+}
+
+.navbar a:hover {
+    color: #fff;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus,
+.nav .open > a,
+.nav .open > a:focus,
+.nav .open > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover {
+    background-color: #204d74;
+    color: #fff;
+}
+
+@media only screen and (max-width: 760px) {
+    .dropdown-menu > li > a { color: #d8e6f3; }
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #d8e6f3;
+}
+
+
+.posts h1 a {
+    color: #444;
+}
+
+.meta {
+    margin-bottom: 1em;
+    color: #777;
+}
+
+.meta li {
+    border-right: 1px solid #ddd;
+}
+
+.meta li:last-child {
+    border-right: none;
+}
