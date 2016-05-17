@@ -39,3 +39,12 @@
 
 -   uploading the site to an ftp site
 -   we can use Github pages to host our site
+    -   `git init`
+    -   `hub create`
+    -   `git check-out -b gh-pages` and `git push -u origin gh-pages`
+    -   `git push -u origin master:gh-pages`
+-   we can use our own custom domain
+-   in order to register a new domain we can use websites like [namecheap](https://www.namecheap.com/)
+    -   we'll configure namecheap to set up a custom domain with Github Pages
+    -   we need to commit a CNAME file
+    -   we configure an A name such that they point to Github ip address
